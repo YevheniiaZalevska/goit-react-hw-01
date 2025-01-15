@@ -29,3 +29,33 @@ thead tr {
 .transactionHistory tr:hover {
     background-color: #403f3f;
 }
+
+@media screen and (max-width: 400px) {
+    .transactionHistory {
+        font-size: 12px;
+    }
+
+    .transactionHistory th,
+    .transactionHistory td {
+        padding: 6px;
+    }
+
+    .transactionHistory th {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .transactionHistory {
+        font-size: 14px;
+    }
+
+    .transactionHistory th,
+    .transactionHistory td {
+        padding: 10px;
+    }
+
+    .transactionHistory th {
+        font-size: 16px;
+    }
+}

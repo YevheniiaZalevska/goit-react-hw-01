@@ -73,3 +73,64 @@
     font-weight: bold;
     color: #122236;
 }
+
+@media screen and (max-width: 400px) {
+    .profile {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .tag,
+    .location {
+        font-size: 14px;
+    }
+
+    .stats li {
+        padding: 10px 0;
+    }
+
+    .label,
+    .quantity {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (min-width: 401px) and (max-width: 768px) {
+    .profile {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .avatar {
+        width: 90px;
+        height: 90px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .tag,
+    .location {
+        font-size: 15px;
+    }
+
+    .stats li {
+        padding: 12px 0;
+    }
+
+    .label,
+    .quantity {
+        font-size: 14px;
+    }
+}
